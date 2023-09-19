@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sharewave *.css
+recursive-include sharewave *.csv
+recursive-include sharewave *.html
+recursive-include sharewave *.ico
+recursive-include sharewave *.js
+recursive-include sharewave *.json
+recursive-include sharewave *.md
+recursive-include sharewave *.png
+recursive-include sharewave *.py
+recursive-include sharewave *.svg
+recursive-include sharewave *.txt
+recursive-exclude sharewave *.pyc
